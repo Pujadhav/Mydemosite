@@ -310,7 +310,7 @@ a img.aligncenter {
 .menu_bar { width:50%; }
 .last_sm_col { width:10%; }
 .menu_bar ul { display:flex; justify-content:space-around; font-size:20px; font-weight:600; }
-
+.menu_bar ul li a:hover { color:#e1be24 !important; }
 .flaticon-wedding-photo:before { content:url('uploads/wedding.png');  }
 .flaticon-event:before { content:url('uploads/event.png'); }
 .flaticon-portrait:before { content:url('uploads/portrait.png'); }
@@ -324,6 +324,7 @@ a img.aligncenter {
 .icon_facebook:before { content:url('uploads/facebook.png'); }
 .icon_instagram:before { content:url('uploads/instagram.png'); }
 .icon_youtube:before { content:url('uploads/youtube.png'); }
+
 
 .contact_details { margin-top:30px; }
 .icon_phone:before { content:url('uploads/phone.png'); position:absolute; left:40px; top:-3px; }
@@ -1620,14 +1621,14 @@ hr.invis1 {
 }
 
 .filter-button-group{
-	border: 1px solid #e45050;
+	border: 1px solid #f1d275;
 	border-radius: 0px;
 	margin: 10px 0px;
 	display: inline-block;
 }
 
 .filter-button-group button.active{
-	background: #8399ca;
+	background: #000;
 	color: #fff;
 }
 
@@ -1645,7 +1646,7 @@ hr.invis1 {
 }
 
 .filter-button-group button:hover{
-	background: #333333;
+	background: #212529;
 	color: #ffffff;
 }
 
