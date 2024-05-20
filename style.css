@@ -701,10 +701,13 @@ xclip
 
 
 .services-inner-box{
-	padding: 25px 15px;
+	padding: 25px 20px;
 	background: #ffffff;
 	margin-bottom: 30px;
 	text-align: center;
+border: 1px solid #8b6d0c29;
+    border-radius: 15px;
+	height:325px;
 }
 .ser-icon{
 	width: 90px;
@@ -724,11 +727,33 @@ xclip
 .services-inner-box h2{
 	font-size: 22px;
 	font-weight: 600;
-	margin-top: 20px;
+	margin: 20px 0px 15px;
 	padding-bottom:0px;
 }
 
+.slick-slider .slick-disabled {
+  opacity : 0; 
+  pointer-events:none;
+}
 
+.slick-slider .element{
+
+  border-radius:5px;
+  display:inline-block;
+
+  display:-webkit-box;
+  display:-ms-flexbox;
+display:flex;
+
+
+}
+.slick-slider button { all:unset; }
+.slick-slider button:focus { outline:revert; }
+.slick-slider .slick-next { position:absolute; right:-130px; top:-10%;; width:50px; height:50px; background:none; border:none; color:#fff; }
+.slick-slider .slick-next:before { content:url("images/right_arrow.png"); transform:scale(0.1); position:absolute; right:0px; top:40%; cursor:pointer; }
+
+.slick-slider .slick-prev { position:absolute; left:-130px; top:-10%;; width:50px; height:50px; background:none; border:none; color:#fff; }
+.slick-slider .slick-prev:before { content:url("images/right_arrow.png"); transform:scale(0.1) rotate(180deg); position:absolute; left:0px; top:40%; cursor:pointer; }
 /*------------------------------------------------------------------
     PORTFOLIO
 -------------------------------------------------------------------*/
