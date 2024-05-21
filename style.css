@@ -2707,3 +2707,35 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+ /* For mobile devices and Tablet */
+    @media (min-width: 320px) and (max-width: 768px) {
+      .container { max-width: 95%; }
+    } 
+	@media (min-width: 768px) and (max-width: 896px) {
+      .container { max-width: 95%; }
+	  .navbar-dark .navbar-brand { width: 100% !important; background:#f1f1f1; }
+	  .menu_bar { width: 80%; }
+	  .last_sm_col { width: 15%; margin:10px 0px; }
+	  #mainNav.navbar-shrink { padding:0px; }
+	  .navbar {padding:0px;}
+	  .navbar-brand { margin:0px; }
+	  .heading { height:680px !important; }
+	  .message-box p { font-size:16px !important; }
+	  .message-box h2 { font-size:30px; }
+	  .section-title { margin-bottom:20px; }
+    } 
+
+    /* For PC with minimum resolution till your PC resolution */ 
+    @media (min-width: 897px) and (max-width: 1400px) {
+     .last_sm_col { width: 13%; }
+	 .container-fluid { padding:0px; }
+	 .section-title { margin-bottom:20px; }
+	 .services-inner-box { height:375px; }
+    }
+    /* For Screen Higher than 1400px */ 
+    @media screen (min-width: 1401px) {
+      #code here
+    } 
